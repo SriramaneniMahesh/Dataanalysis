@@ -1,0 +1,22 @@
+Steps for new repository:
+---------------------------
+-->  git init
+-->  git config --global user.name "name"
+-->  git config --global user.email "email"
+-->  git add . (all_files) or filename
+-->  git commit -m "message"
+-->  git remote add remote_name "git_res_email"
+-->  git push remote_name branch_name
+-->  Goto--github--refresh name and check files
+--------------------------------------------------------------------------
+steps for already exist repository
+-----------------------------------
+-->  git add .
+-->  git commit -m "message"
+-->  git remote #It is used displaying already exist remote names
+-->  git push remote_name branch_name
+-->  Goto--github--refresh name and check files
+__________________________________________________________________________
+for getting files from repository:
+--------------------------------------
+git pull remote_name branch_name
